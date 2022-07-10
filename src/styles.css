@@ -1,0 +1,49 @@
+.contenedor {
+  display: flex;
+  background: rgb(247, 247, 208);
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.encabezado {
+  width: 100%;
+  padding-left: 5%;
+}
+
+h1 {
+  color: rgb(48, 32, 12);
+  font-size: 400%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 300%;
+  display: block;
+}
+
+.item1 {
+  background: coral;
+  width: 25%;
+  padding: 2%;
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(248, 94, 73);
+}
+
+.item2 {
+  background: rgb(59, 202, 46);
+  width: 25%;
+  padding: 2%;
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(59, 94, 46);
+}
+
+.item3 {
+  background: rgb(37, 103, 112);
+  width: 25%;
+  padding: 2%;
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(12, 49, 59);
+}
